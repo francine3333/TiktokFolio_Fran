@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Tiktok website clone" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tiktok</title>
+  <link rel="stylesheet" href="./dist/style.css" />
+
+</head>
+
+<body>
+  <nav>
+    <div class="nav-item-container">
+      <div class="left-container">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 118 30" width="118" height="42" alt="TikTok">
+            <path fill="#25F4EE"
+              d="M9.875 11.842v-1.119A8.836 8.836 0 008.7 10.64c-4.797-.006-8.7 3.9-8.7 8.707a8.706 8.706 0 003.718 7.135A8.675 8.675 0 011.38 20.55c0-4.737 3.794-8.598 8.495-8.707z">
+            </path>
+            <path fill="#25F4EE"
+              d="M10.087 24.526c2.14 0 3.89-1.707 3.966-3.83l.007-18.968h3.462a6.78 6.78 0 01-.109-1.202h-4.727l-.006 18.968a3.978 3.978 0 01-3.967 3.83 3.93 3.93 0 01-1.846-.46 3.949 3.949 0 003.22 1.662zM23.992 8.166V7.111a6.506 6.506 0 01-3.584-1.067 6.572 6.572 0 003.584 2.122z">
+            </path>
+            <path fill="#FE2C55"
+              d="M20.41 6.044a6.54 6.54 0 01-1.617-4.316h-1.265a6.557 6.557 0 002.881 4.316zM8.707 15.365a3.98 3.98 0 00-3.974 3.976c0 1.528.87 2.858 2.134 3.523a3.937 3.937 0 01-.754-2.321 3.98 3.98 0 013.973-3.976c.41 0 .805.07 1.176.185v-4.833a8.852 8.852 0 00-1.176-.083c-.07 0-.134.006-.204.006v3.708a3.999 3.999 0 00-1.175-.185z">
+            </path>
+            <path fill="#FE2C55"
+              d="M23.992 8.166v3.676a11.25 11.25 0 01-6.579-2.116v9.621c0 4.802-3.903 8.714-8.706 8.714a8.669 8.669 0 01-4.99-1.579 8.69 8.69 0 006.37 2.781c4.796 0 8.706-3.906 8.706-8.714v-9.621a11.25 11.25 0 006.579 2.116v-4.73c-.479 0-.939-.052-1.38-.148z">
+            </path>
+            <path fill="white"
+              d="M17.413 19.348V9.726a11.25 11.25 0 006.58 2.116V8.166a6.572 6.572 0 01-3.584-2.122 6.611 6.611 0 01-2.887-4.316h-3.463l-.006 18.968a3.978 3.978 0 01-3.967 3.83 3.99 3.99 0 01-3.225-1.656 3.991 3.991 0 01-2.134-3.523A3.98 3.98 0 018.7 15.372c.409 0 .805.07 1.176.185v-3.708c-4.702.103-8.496 3.964-8.496 8.701 0 2.29.888 4.373 2.338 5.933a8.669 8.669 0 004.989 1.58c4.797 0 8.706-3.913 8.706-8.715zM30.048 8.179h14.775l-1.355 4.232h-3.832v15.644h-4.778V12.41l-4.804.006-.006-4.238zM69.032 8.179h15.12l-1.354 4.232h-4.172v15.644h-4.784V12.41l-4.803.006-.007-4.238zM45.73 14.502h4.733v13.553h-4.708l-.026-13.553zM52.347 8.128h4.733v9.257l4.689-4.61h5.647l-5.934 5.76 6.643 9.52h-5.213l-4.433-6.598-1.405 1.362v5.236h-4.733V8.128h.006zM102.49 8.128h4.734v9.257l4.688-4.61h5.647l-5.934 5.76 6.643 9.52h-5.206l-4.433-6.598-1.405 1.362v5.236h-4.734V8.128zM48.093 12.954a2.384 2.384 0 10-.002-4.771 2.384 2.384 0 00.002 4.771z">
+            </path>
+            <path fill="#25F4EE"
+              d="M83.544 19.942a8.112 8.112 0 017.474-8.087 8.748 8.748 0 00-.709-.026c-4.478 0-8.106 3.631-8.106 8.113 0 4.482 3.628 8.113 8.106 8.113.21 0 .498-.013.71-.026-4.178-.326-7.475-3.823-7.475-8.087z">
+            </path>
+            <path fill="#FE2C55"
+              d="M92.858 11.83c-.217 0-.505.012-.715.025a8.111 8.111 0 017.467 8.087 8.111 8.111 0 01-7.467 8.087c.21.02.498.026.715.026 4.478 0 8.106-3.631 8.106-8.113 0-4.482-3.628-8.113-8.106-8.113z">
+            </path>
+            <path fill="white"
+              d="M91.58 23.887a3.94 3.94 0 01-3.94-3.945 3.94 3.94 0 117.882 0c0 2.18-1.77 3.945-3.941 3.945zm0-12.058c-4.477 0-8.105 3.631-8.105 8.113 0 4.482 3.628 8.113 8.106 8.113 4.477 0 8.106-3.631 8.106-8.113 0-4.482-3.629-8.113-8.106-8.113z">
+            </path>
+          </svg>
+        </a>
+      </div>
+      <div class="center-container">
+        <form action="#">
+          <select id="category-dropdown" class="dropdown">
+            <option value="" disabled selected> Select a category</option>
+            <option value="all">All</option>
+            <option value="web">Web Dev</option>
+            <option value="mobile">Mobile Dev</option>
+            <option value="devops">DevOps</option>
+            <option value="ai">AI/ML</option>
+          </select>
+
+        </form>
+      </div>
+      <div class="right-container">
+
+
+        <div class="">
+          <a href="#">
+            <svg class="tiktok-y48l9g-StyledIcon e1nx07zo1" width="1em" data-e2e="" height="1em" viewBox="0 0 48 48"
+              fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M2.17877 7.17357C2.50304 6.45894 3.21528 6 4.00003 6H44C44.713 6 45.372 6.37952 45.7299 6.99615C46.0877 7.61278 46.0902 8.37327 45.7365 8.99228L25.7365 43.9923C25.3423 44.6821 24.5772 45.0732 23.7872 44.9886C22.9972 44.9041 22.3321 44.3599 22.0929 43.6023L16.219 25.0017L2.49488 9.31701C1.97811 8.72642 1.85449 7.88819 2.17877 7.17357ZM20.377 24.8856L24.531 38.0397L40.5537 10H8.40757L18.3918 21.4106L30.1002 14.2054C30.5705 13.9159 31.1865 14.0626 31.4759 14.533L32.5241 16.2363C32.8136 16.7066 32.6669 17.3226 32.1966 17.612L20.377 24.8856Z">
+              </path>
+            </svg>
+          </a>
+          <span class="hover-label">Message</span>
+        </div>
+        <div class="">
+          <a href="#">
+            <svg class="tiktok-1g0p6jv-StyledInboxIcon e18kkhh41" width="1em" data-e2e="" height="1em"
+              viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M24.0362 21.3333H18.5243L15.9983 24.4208L13.4721 21.3333H7.96047L7.99557 8H24.0009L24.0362 21.3333ZM24.3705 23.3333H19.4721L17.2883 26.0026C16.6215 26.8176 15.3753 26.8176 14.7084 26.0026L12.5243 23.3333H7.62626C6.70407 23.3333 5.95717 22.5845 5.9596 21.6623L5.99646 7.66228C5.99887 6.74352 6.74435 6 7.66312 6H24.3333C25.2521 6 25.9975 6.7435 26 7.66224L26.0371 21.6622C26.0396 22.5844 25.2927 23.3333 24.3705 23.3333ZM12.6647 14C12.2965 14 11.998 14.2985 11.998 14.6667V15.3333C11.998 15.7015 12.2965 16 12.6647 16H19.3313C19.6995 16 19.998 15.7015 19.998 15.3333V14.6667C19.998 14.2985 19.6995 14 19.3313 14H12.6647Z">
+              </path>
+            </svg>
+          </a>
+          <span class="hover-label">Inbox</span>
+        </div>
+        <div class="profile-icon">
+          <a href="#"><img src="./picture/dp.png" alt="profile-icon" /></a>
+          <div class="profile-menu active">
+            <div class="profile-menu-upper">
+              <ul>
+                <li>
+                  <a href="#">
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                      </svg>
+                      <span>View profile</span>
+                    </div>
+                  </a>
+                </li>
+
+
+
+                <li>
+                  <a href="#">
+                    <div>
+                      <!-- Updated Certifications Icon -->
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M19.5 21.75h-15a1.5 1.5 0 01-1.5-1.5v-15a1.5 1.5 0 011.5-1.5h9.75l6.75 6.75v9.75a1.5 1.5 0 01-1.5 1.5z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 3v6h6" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6M9 15h6M9 18h3" />
+                      </svg>
+                      <span>Certifications</span>
+                    </div>
+                  </a>
+                </li>
+
+
+
+                <li>
+                  <a href="#">
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+                      </svg>
+
+                      <span>Light mode</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="profile-menu-down">
+              <ul>
+                <li>
+                  <a href="#">
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75" />
+                      </svg>
+                      <span>Log out</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="hero">
+    <div class="side-menu-bar">
+      <section>
+        <ul>
+          <li>
+            <a href="#" class="active">
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                </svg>
+                <span>For You</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
+                </svg>
+
+                <span>Following</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round"
+                    d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
+                </svg>
+
+                <span>LIVE</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="soft-skills-section">
+        <h4 class="soft-skills-title">Soft Skills</h4><br>
+        <ul class="soft-skills-list">
+          <li>Communication</li>
+          <li>Teamwork</li>
+          <li>Critical thinking</li>
+          <li>Problem-Solving</li>
+          <li>Adaptability</li>
+          <li>Time Management</li>
+          <li>Leadership skills</li>
+          <li>Attention to Detail</li>
+          <li>Interpersonal skills</li>
+        </ul>
+      </section>
+
+      <section class="technical-skills-section">
+        <h4 class="technical-skills-title">Technical Skills</h4><br>
+        <ul class="technical-skills-list">
+          <li><strong>🧰 Programming Languages</strong></li>
+          <li>C · Java · JavaScript · Kotlin · PHP</li>
+          <br />
+          <li><strong>💻 Web Development</strong></li>
+          <li>HTML · CSS · TailwindCSS · React.js · Next.js · Node.js · Express.js</li>
+          <br />
+          <li><strong>🛠️ DevOps & Tools</strong></li>
+          <li>Git · Docker · Jenkins · Kubernetes · Terraform</li>
+          <br />
+          <li><strong>🗃️ Databases</strong></li>
+          <li>MySQL · MongoDB</li>
+        </ul>
+      </section>
+
+
+
+      <section>
+        <h4 class="side-menu-title">Discover</h4>
+        <ul id="discover">
+          <li><a href="">#Web3</a></li>
+          <li><a href="">#CloudComputing</a></li>
+          <li><a href="">#Ethereum</a></li>
+          <li><a href="">#Cryptocurrency</a></li>
+          <li><a href="">#Ethereum</a></li>
+          <li><a href="">#MachineLearning</a></li>
+          <li><a href="">#Bitcoin</a></li>
+          <li><a href="">#DeFi</a></li>
+        </ul>
+      </section>
+      <footer>
+        <section>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Newsroom</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">BytesDance</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">tiktok for good</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Transparency</a></li>
+            <li><a href="#">Tiktok rewards</a></li>
+            <li><a href="#">Tiktok brows</a></li>
+            <li><a href="#">Tiktok embeds</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Safety</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Career Portal</a></li>
+            <li><a href="#">Community Guidelines</a></li>
+          </ul>
+          <p id="copyright-signature">&#169 2025 Tiktok</p>
+        </section>
+      </footer>
+    </div>
+    <main>
+
+      <!-- The size for this is 1080px wide x 1920px tall-->
+
+      <!-- First video -->
+      <div class="video-container" data-category="all">
+        <div class="video-container-left">
+          <span class="video-dp"></span>
+          <div>
+            <div class="video-tittle">
+              <h3 class="verified">francine.dev</h3>
+              <p>Rischa Francine C. Lastimosa</p>
+            </div>
+            <div class="video-description_tags">
+              <p>DevOps Enthusiast | BSIT Student @ De La Salle University Manila</p>
+              <span>
+                <a href="#" class="a-hashtag">fyp</a>
+                <a href="#" class="a-hashtag">techtok</a>
+                <a href="#" class="a-hashtag">studytok</a>
+                <a href="#" class="a-hashtag">viral</a>
+                <a href="#" class="a-hashtag">devops</a>
+                <a href="#" class="a-hashtag">softwaredeveloper</a>
+                <a href="#" class="a-hashtag">programmer</a>
+
+
+              </span>
+              <span>
+                <a href="#" class=""><svg font-size="16px" viewBox="0 0 48 48" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                    <path d="M0 5a5 5 0 015-5h38a5 5 0 015 5v38a5 5 0 01-5 5H5a5 5 0 01-5-5V5z" fill="#13BD90"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M24 40.5c.88 0 14-11.43 14-19.1 0-7.68-6.27-13.9-14-13.9s-14 6.22-14 13.9c0 7.67 13.13 19.1 14 19.1zm0-14.76c2.9 0 5.25-2.34 5.25-5.21A5.23 5.23 0 0024 15.32a5.23 5.23 0 00-5.25 5.2A5.23 5.23 0 0024 25.75z"
+                      fill="#fff"></path>
+                  </svg> Metro Manila</a>
+              </span>
+              <span>
+                <a href="#" class="a-song"> redrum - 21 Savage</a>
+              </span>
+            </div>
+            <div class="video__side_btns">
+              <div class="a_video">
+                <video src="./video/download.mp4" type="video/mp4" controls></video>
+              </div>
+              <div class="side_btns">
+                <div class="btn_container">
+                  <span class="btn like_btn" onclick="activeClassControll(this)">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                      <path
+                        d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
+                    </svg>
+                  </span>
+                  <span class="count like_count">340</span>
+                </div>
+                <div class="btn_container">
+                  <span class="btn comment_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                      <path fill-rule="evenodd"
+                        d="M4.804 21.644A6.707 6.707 0 006 21.75a6.721 6.721 0 003.583-1.029c.774.182 1.584.279 2.417.279 5.322 0 9.75-3.97 9.75-9 0-5.03-4.428-9-9.75-9s-9.75 3.97-9.75 9c0 2.409 1.025 4.587 2.674 6.192.232.226.277.428.254.543a3.73 3.73 0 01-.814 1.686.75.75 0 00.44 1.223zM8.25 10.875a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25zM10.875 12a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm4.875-1.125a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25z"
+                        clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                  <span class="count comment_count">200</span>
+                </div>
+                <div class="btn_container">
+                  <span class="btn share_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                      <path
+                        d="M11.47 1.72a.75.75 0 011.06 0l3 3a.75.75 0 01-1.06 1.06l-1.72-1.72V7.5h-1.5V4.06L9.53 5.78a.75.75 0 01-1.06-1.06l3-3zM11.25 7.5V15a.75.75 0 001.5 0V7.5h3.75a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9a3 3 0 013-3h3.75z" />
+                    </svg>
+                  </span>
+                  <span class="count share_count">200</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="video-follow-btn"><a href="#">Follow</a></span>
+      </div>
+
+      <!-- Second video -->
+      <div class="video-container" data-category="web">
+        <div class="video-container-left">
+          <span class="video-dp"></span>
+          <div>
+            <div class="video-tittle">
+              <h3 class="verified">francine.dev</h3>
+              <p>Rischa Fasdasdosa</p>
+            </div>
+
+
+            <div class="video-description_tags">
+              <p>DevOps Enthusiast | BSIT Student @ De La Salle University Manila</p>
+              <span>
+                <a href="#" class="a-hashtag">webdevelopment</a>
+                <a href="#" class="a-hashtag">techtok</a>
+                <a href="#" class="a-hashtag">studytok</a>
+
+                <a href="#" class="a-hashtag">viral</a>
+              </span>
+              <span>
+                <a href="#" class=""><svg font-size="16px" viewBox="0 0 48 48" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                    <path d="M0 5a5 5 0 015-5h38a5 5 0 015 5v38a5 5 0 01-5 5H5a5 5 0 01-5-5V5z" fill="#13BD90"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M24 40.5c.88 0 14-11.43 14-19.1 0-7.68-6.27-13.9-14-13.9s-14 6.22-14 13.9c0 7.67 13.13 19.1 14 19.1zm0-14.76c2.9 0 5.25-2.34 5.25-5.21A5.23 5.23 0 0024 15.32a5.23 5.23 0 00-5.25 5.2A5.23 5.23 0 0024 25.75z"
+                      fill="#fff"></path>
+                  </svg> Metro Manila</a>
+              </span>
+              <span>
+                <a href="#" class="a-song"> redrum - 21 Savage</a>
+              </span>
+            </div>
+            <div class="video__side_btns">
+              <div class="a_video">
+                <video src="./video/download.mp4" type="video/mp4" controls></video>
+              </div>
+              <div class="side_btns">
+                <div class="btn_container">
+                  <span class="btn like_btn" onclick="activeClassControll(this)">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                      <path
+                        d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
+                    </svg>
+                  </span>
+                  <span class="count like_count">340</span>
+                </div>
+                <div class="btn_container">
+                  <span class="btn comment_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                      <path fill-rule="evenodd"
+                        d="M4.804 21.644A6.707 6.707 0 006 21.75a6.721 6.721 0 003.583-1.029c.774.182 1.584.279 2.417.279 5.322 0 9.75-3.97 9.75-9 0-5.03-4.428-9-9.75-9s-9.75 3.97-9.75 9c0 2.409 1.025 4.587 2.674 6.192.232.226.277.428.254.543a3.73 3.73 0 01-.814 1.686.75.75 0 00.44 1.223zM8.25 10.875a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25zM10.875 12a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm4.875-1.125a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25z"
+                        clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                  <span class="count comment_count">200</span>
+                </div>
+                <div class="btn_container">
+                  <span class="btn share_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                      <path
+                        d="M11.47 1.72a.75.75 0 011.06 0l3 3a.75.75 0 01-1.06 1.06l-1.72-1.72V7.5h-1.5V4.06L9.53 5.78a.75.75 0 01-1.06-1.06l3-3zM11.25 7.5V15a.75.75 0 001.5 0V7.5h3.75a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9a3 3 0 013-3h3.75z" />
+                    </svg>
+                  </span>
+                  <span class="count share_count">200</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="video-follow-btn"><a href="#">Follow</a></span>
+      </div>
+
+      <!-- Third video -->
+      <div class="video-container" data-category="mobile">
+        <div class="video-container-left">
+          <span class="video-dp"></span>
+          <div>
+            <div class="video-tittle">
+              <h3 class="verified">francine.dev</h3>
+              <p>Rischa Francine C. Lastimosa</p>
+            </div>
+            <div class="video-description_tags">
+              <p>DevOps Enthusiast | BSIT Student @ De La Salle University Manila</p>
+              <span>
+                <a href="#" class="a-hashtag">fyp</a>
+                <a href="#" class="a-hashtag">techtok</a>
+                <a href="#" class="a-hashtag">studytok</a>
+
+                <a href="#" class="a-hashtag">viral</a>
+              </span>
+              <span>
+                <a href="#" class=""><svg font-size="16px" viewBox="0 0 48 48" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                    <path d="M0 5a5 5 0 015-5h38a5 5 0 015 5v38a5 5 0 01-5 5H5a5 5 0 01-5-5V5z" fill="#13BD90"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M24 40.5c.88 0 14-11.43 14-19.1 0-7.68-6.27-13.9-14-13.9s-14 6.22-14 13.9c0 7.67 13.13 19.1 14 19.1zm0-14.76c2.9 0 5.25-2.34 5.25-5.21A5.23 5.23 0 0024 15.32a5.23 5.23 0 00-5.25 5.2A5.23 5.23 0 0024 25.75z"
+                      fill="#fff"></path>
+                  </svg> Metro Manila</a>
+              </span>
+              <span>
+                <a href="#" class="a-song"> redrum - 21 Savage</a>
+              </span>
+            </div>
+            <div class="video__side_btns">
+              <div class="a_video">
+                <video src="./video/download.mp4" type="video/mp4" controls></video>
+              </div>
+              <div class="side_btns">
+                <div class="btn_container">
+                  <span class="btn like_btn" onclick="activeClassControll(this)">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                      <path
+                        d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
+                    </svg>
+                  </span>
+                  <span class="count like_count">340</span>
+                </div>
+                <div class="btn_container">
+                  <span class="btn comment_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                      <path fill-rule="evenodd"
+                        d="M4.804 21.644A6.707 6.707 0 006 21.75a6.721 6.721 0 003.583-1.029c.774.182 1.584.279 2.417.279 5.322 0 9.75-3.97 9.75-9 0-5.03-4.428-9-9.75-9s-9.75 3.97-9.75 9c0 2.409 1.025 4.587 2.674 6.192.232.226.277.428.254.543a3.73 3.73 0 01-.814 1.686.75.75 0 00.44 1.223zM8.25 10.875a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25zM10.875 12a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm4.875-1.125a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25z"
+                        clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                  <span class="count comment_count">200</span>
+                </div>
+                <div class="btn_container">
+                  <span class="btn share_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                      <path
+                        d="M11.47 1.72a.75.75 0 011.06 0l3 3a.75.75 0 01-1.06 1.06l-1.72-1.72V7.5h-1.5V4.06L9.53 5.78a.75.75 0 01-1.06-1.06l3-3zM11.25 7.5V15a.75.75 0 001.5 0V7.5h3.75a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9a3 3 0 013-3h3.75z" />
+                    </svg>
+                  </span>
+                  <span class="count share_count">200</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="video-follow-btn"><a href="#">Follow</a></span>
+      </div>
+
+    </main>
+  </div>
+  
+  <script>
+    document.getElementById("category-dropdown").addEventListener("change", function () {
+      const items = document.querySelectorAll(".video-container");
+
+      // Hide all items initially
+      items.forEach(item => item.style.display = "none");
+
+      // Show the selected items based on the selection
+      const selectedValue = this.value;
+      console.log("Selected Value:", selectedValue); // Debugging
+
+      if (selectedValue === "all") {
+        // Display all items
+        items.forEach(item => {
+          console.log("Showing all items");
+          item.style.display = "block";
+        });
+      } else {
+        // Display only the items with matching data-category
+        items.forEach(item => {
+          const category = item.getAttribute("data-category");
+          console.log(`Item category: ${category}, Selected value: ${selectedValue}`);
+          if (category === selectedValue) {
+            console.log(`Showing item with category: ${category}`);
+            item.style.display = "block";
+          }
+        });
+      }
+    });
+
+
+  </script>
+
+
+  <script src="app/js/index.js"></script>
+</body>
+
+</html>
